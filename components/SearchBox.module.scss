@@ -1,0 +1,32 @@
+@import '../styles/variable.scss';
+
+.container{
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    width: 360px;
+    border: solid 1px white;
+    z-index: 1000;
+}
+
+.title{
+    height: 50px;
+    color: white;
+    background: linear-gradient(144deg, #fab941 0, #ff6708 100%);
+}
+
+.content{
+    padding: 20px;
+    background: white;
+    opacity: 0.5;
+    label{
+        font-size: 12px;
+        font-weight: 700;
+        color:$blue;
+        margin-bottom: 5px;
+    }
+}
+
+.content:hover{
+    opacity: 1.0;
+}
