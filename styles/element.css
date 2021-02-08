@@ -50,3 +50,16 @@
     color: #fff;
     outline: none;
 }
+
+
+.carousel-item{
+    height: 100%;
+}
+
+.carousel-item img{
+    min-width: 100%;
+    width: auto;
+    float:right;
+    object-fit:cover;
+   
+}

@@ -5,17 +5,19 @@ import Services from '../components/Services';
 
 export default function Home() {
     return (
-        <div className='container'>
+        <div className='w-full p-0 m-0'>
             <Head>
                 <title>Carplus</title>
             </Head>
 
-            <main className='wid100 fx fx_wrap'>
-                <header className='wid100'>
+            <main className='w-full p-0 flex flex-wrap'>
+                <header className='w-full p-0'>
                     <WebHeader />
+                </header>
+                <section className='w-full p-0 flex flex-wrap'>
                     <Banner />
                     <Services />
-                </header>
+                </section>
             </main>
 
             <footer></footer>

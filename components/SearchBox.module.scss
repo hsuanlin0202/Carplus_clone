@@ -1,12 +1,10 @@
 @import '../styles/variable.scss';
 
 .container{
-    position: absolute;
     top: 110px;
     left: 50px;
     width: 360px;
     border: solid 1px white;
-    z-index: 1000;
 }
 
 .title{

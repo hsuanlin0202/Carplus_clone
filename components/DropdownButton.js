@@ -11,7 +11,10 @@ export default function DropdownButton({ title = '下拉選單' }) {
     }
     return (
         <>
-            <button className={styles.menuItem} onClick={showDrop}>
+            <button
+                className={'w-full text-center font-bold text-base border-none no-underline ' + styles.menuItem}
+                onClick={showDrop}
+            >
                 {title}
             </button>
         </>

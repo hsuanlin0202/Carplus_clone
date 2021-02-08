@@ -2,19 +2,13 @@
 
 .menuItem{
     background-color: white;
-    width: 100%;
     min-width: 110px;
     height: 48px;
     line-height: 48px;
-    text-align: center;
-    font-weight: 700;
     color: $blue;
     cursor: pointer;
-    border: none;
-    text-decoration: none;
-    display: inline-block;
-    outline-width: 0;
-    font-size: 1rem;
+    display: block;
+    outline:none;
 }
 
 .menuItem:hover{

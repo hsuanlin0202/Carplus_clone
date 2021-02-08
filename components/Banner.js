@@ -10,7 +10,7 @@ export default function Banner() {
     return (
         <>
             {isDesktop ? (
-                <div className={'wid100 ' + styles.container}>
+                <div className={'w-full ' + styles.container}>
                     <Carousel></Carousel>
                     <SearchBox></SearchBox>
                 </div>
